@@ -1,5 +1,3 @@
-import request
-import gunicorn
 from flask import Flask, request
 import pandas as pd
 import sqlite3
