@@ -1,5 +1,5 @@
 # API Documentation
-API ini dibuat dengan sumber database chinook.db sebagai salah satu dari empat cases dalam Capstone Project. API untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint yang dimaksud. Base url dari aplikasi ini adalah https://algo-capstonedeployapi-wkj.herokuapp.com/
+API ini dibuat dengan sumber database chinook.db sebagai salah satu dari empat cases dalam Capstone Project. API untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint yang dimaksud. Base url dari aplikasi ini adalah https://capstone-deployapi-wenny.herokuapp.com/
 
 ___
 ## Open Endpoints : 
@@ -8,18 +8,18 @@ ___
 > `/artistsales', methods=['GET']`    
 
 Menampilkan data berupa tracks yang tersusun berdasarkan artis/penyanyi dengan total penjualan tertinggi di seluruh negara.
-Contoh : https://algo-capstonedeployapi-wkj.herokuapp.com/artistsales
+Contoh : https://capstone-deployapi-wenny.herokuapp.com/artistsales
 
 **Top Track - Country** : 
 
 > `/countrysales', methods=['GET']`  
 
 Menampilkan data berupa daftar negara dari angka penjualan tertinggi, serta top track di masing-masing negara tersebut. 
-Contoh : https://algo-capstonedeployapi-wkj.herokuapp.com/countrysales
+Contoh : https://capstone-deployapi-wenny.herokuapp.com/countrysales
 
 **Sales Amount in Period - Country** : 
 
 > `'/trans/get/<country>', methods=['GET']`  
 
 Menampilkan total nilai penjualan bulanan di tiap kota pada masing-masing negara. User dapat mencari informasi penjualan berdasarkan kota dan negara yang terdaftar dalam database. 
-Contoh : https://algo-capstonedeployapi-wkj.herokuapp.com/trans/get/USA
+Contoh : https://capstone-deployapi-wenny.herokuapp.com/trans/get/USA

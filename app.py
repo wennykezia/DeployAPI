@@ -74,13 +74,13 @@ def documentation():
             <li>
                 <p> /artistsales', methods=['GET'] </p>
                 <p> Menampilkan data berupa tracks yang tersusun berdasarkan artis/penyanyi dengan total penjualan tertinggi di seluruh negara. </p>
-                <p> Contoh : https://algo-capstonedeployapi-wkj.herokuapp.com/artistsales </p>
+                <p> Contoh : https://capstone-deployapi-wenny.herokuapp.com/artistsales </p>
             </li>
             
             <li>
                 <p> /countrysales', methods=['GET'] </p>
                 <p> Menampilkan data berupa daftar negara dari angka penjualan tertinggi, serta top track di masing-masing negara tersebut. </p>
-                <p> Contoh : https://algo-capstonedeployapi-wkj.herokuapp.com/countrysales </p>
+                <p> Contoh : https://capstone-deployapi-wenny.herokuapp.com/countrysales </p>
             </li>
         </ol>
          
@@ -89,7 +89,7 @@ def documentation():
             <li>
                 <p> /trans/get/&ltcountry&gt', methods=['GET'] </p>
                 <p> Menampilkan total nilai penjualan bulanan di tiap kota pada masing-masing negara. User dapat mencari informasi penjualan berdasarkan kota dan negara yang terdaftar dalam database.</p>
-                <p> Contoh : https://algo-capstonedeployapi-wkj.herokuapp.com/trans/get/USA </p>
+                <p> Contoh : https://capstone-deployapi-wenny.herokuapp.com/trans/get/USA </p>
             </li>
  
         </ol>
